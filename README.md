@@ -3,6 +3,7 @@
 By the Vizzies (GVIS)
 
 Challenge: Develop an intelligent literature search and analysis application that reads NASA-relevant scientific articles using natural language processing and text mining, returns knowledge analysis and relevant scientific findings, and reveals knowledge gaps and multi-disciplinary research opportunities.
+Time Frame: about 14 hours
 
 ## Setup
 ### BERT Model - `Semantic-Search.ipynb`
@@ -44,6 +45,6 @@ cd NASA-Semantic-Search-Engine-for-Scientific-Literature
 * Evan "Taylor" Yates, MSFC, Software Engineer, [evan.t.yates@nasa.gov](evan.t.yates@nasa.gov)
 * Gulsum Oz, ARC, Information Tech Specialist, [oz.gulsum@nasa.gov](oz.gulsum@nasa.gov)
 * Shruti Janardhanan, GRC, Intern, [shruti.janardhanan@nasa.gov](shruti.janardhanan@nasa.gov)
-* Kelci Mesnah, GRC, Intern, [kelci.mensah@nasa.gov](kelci.mensah@nasa.gov)
+* Kelci Mensah, GRC, Intern, [kelci.mensah@nasa.gov](kelci.mensah@nasa.gov)
 * Samantha "Sam" Stesch, GRC, Intern, [samantha.g.stesch@nasa.gov](samantha.g.stesch@nasa.gov)
 * Heather Sulier, GRC, Intern, [heather.sulier@nasa.gov](heather.sulier@nasa.gov)
