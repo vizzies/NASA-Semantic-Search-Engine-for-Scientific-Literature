@@ -43,7 +43,6 @@ A microservice written in Python with the [Flask micro framework](http://flask.p
     2. [`conda` environment](#conda)
 2. [Initialize Flask App](#init_flask)
 
-&nbsp;
 #### Set Up Environment <a name="set_up_env"></a>
 ##### `virtualenv` environment <a name="virtualenv"></a>
 
@@ -67,7 +66,6 @@ source env/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-&nbsp;
 ##### `conda` environment <a name="conda"></a>
 1. Clone the repo
 ```bash
@@ -90,7 +88,6 @@ conda activate ./env
 pip install -r requirements.txt
 ```
 #### Initialize Flask App <a name="init_flask"></a>
-
 3. Initialize the app database
 ```bash
 flask db init
