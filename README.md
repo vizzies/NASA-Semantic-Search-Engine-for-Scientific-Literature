@@ -2,8 +2,8 @@
 [NASA DT Hackathon](https://dthack.spaceappschallenge.org)  
 By the Vizzies (GVIS)
 
-Challenge: Develop an intelligent literature search and analysis application that reads NASA-relevant scientific articles using natural language processing and text mining, returns knowledge analysis and relevant scientific findings, and reveals knowledge gaps and multi-disciplinary research opportunities.  
-Time Frame: about 15 hours
+**Challenge**: Develop an intelligent literature search and analysis application that reads NASA-relevant scientific articles using natural language processing and text mining, returns knowledge analysis and relevant scientific findings, and reveals knowledge gaps and multi-disciplinary research opportunities.  
+**Time Frame**: about **15 hours**
 
 ## Setup
 ### BERT Model - `Semantic-Search.ipynb`
