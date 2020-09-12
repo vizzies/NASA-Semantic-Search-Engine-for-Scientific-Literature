@@ -18,7 +18,7 @@ $ cd NASA-Semantic-Search-Engine-for-Scientific-Literature
 5. Under the heading `BERT Sentence Transformer Semantic Search`, in the `queries` list, add your scientific query of choice
 6. Run that cell to recieve searched literature documents
 
-### Figma Mockup - [Link Here](https://www.figma.com/file/8McMiR3Eo8ccFVowPE8Hcy/Semantic-Search-Engine-for-Scientific-Literature-by-Vizzies?node-id=0%3A1)
+### Figma Mockup - [Clickable Prototype](https://www.figma.com/file/8McMiR3Eo8ccFVowPE8Hcy/Semantic-Search-Engine-for-Scientific-Literature-by-Vizzies?node-id=0%3A1)
 1. Create a background frame `#F3F3F3` for web application
 2. Add in search bar for semantic query search
 3. Add title and hackathon team logo into the pseudo-navigation bar
@@ -111,8 +111,6 @@ flask run
 ```bash
 http://127.0.0.1:8080/api/v1/results
 ```
-
-## Repository File Directory
 
 ## Contributors
 
