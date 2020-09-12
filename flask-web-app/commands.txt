@@ -1,0 +1,9 @@
+Run main app
+`flask run`
+
+Run Reddis Server
+`redis-server`
+
+Run Celery worker
+`celery worker -A reusetracker.celery_app:app --loglevel=info`
+
