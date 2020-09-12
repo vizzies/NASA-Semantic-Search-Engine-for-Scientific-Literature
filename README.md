@@ -35,8 +35,82 @@ $ cd NASA-Semantic-Search-Engine-for-Scientific-Literature
    * select object > go to `code` in side menu > `CRTL` + `c`
 
 ### Flask Application Setup
-1.
+A microservice written in Python with the [Flask micro framework](http://flask.pocoo.org). Source code located at https://github.com/vizzies/bertsearch.
 
+#### Contents
+1. [Set Up Environment](#set_up_env)
+    1. [`virtualenv` environment](#virtualenv)
+    2. [`conda` environment](#conda)
+2. [Initialize Flask App](#init_flask)
+
+&nbsp;
+#### Set Up Environment <a name="set_up_env"></a>
+##### `virtualenv` environment <a name="virtualenv"></a>
+
+1. Clone the repo
+```bash
+git clone https://github.com/vizzies/bertsearch.git
+```
+2. `cd` into the new directory
+```bash
+cd bertsearch
+```
+3. Initiate a new virtual environment and store in the project's `env` directory
+```bash
+python -m virtualenv env
+```
+4. Activate the new virtual environment
+```bash
+source env/bin/activate
+```
+5. Install dependencies in new environment
+```bash
+pip install -r requirements.txt
+```
+&nbsp;
+##### `conda` environment <a name="conda"></a>
+1. Clone the repo
+```bash
+git clone https://github.com/vizzies/bertsearch.git
+```
+2. `cd` into the new directory
+```bash
+cd bertsearch
+```
+3. Create a new conda environment in the project's `env` directory
+```bash
+conda create python=3.8.3 --prefix ./env
+```
+4. Activate the new environment
+```bash
+conda activate ./env
+```
+5. Install dependencies in new environment
+```bash
+pip install -r requirements.txt
+```
+#### Initialize Flask App <a name="init_flask"></a>
+
+3. Initialize the app database
+```bash
+flask db init
+```
+4. Generate the first database migration
+```bash
+flask db migrate
+```
+5. Run database the migration `upgrade` script
+```bash
+flask db upgrade
+```
+6. Run the flask app
+```bash
+flask run
+```
+7. You should now be able to make a call to your API. Paste this URL into your browser and check for a valid response
+```bash
+http://127.0.0.1:8080/api/v1/results
+```
 
 ## Repository File Directory
 
