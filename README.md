@@ -115,6 +115,7 @@ http://127.0.0.1:8080/api/v1/results
 * Calvin Robinson, GRC, Data Architect, [calvin.r.robinson@nasa.gov](calvin.r.robinson@nasa.gov)
 * Evan "Taylor" Yates, MSFC, Software Engineer, [evan.t.yates@nasa.gov](evan.t.yates@nasa.gov)
 * Gulsum Oz, ARC, Information Tech Specialist, [oz.gulsum@nasa.gov](oz.gulsum@nasa.gov)
+* Blake Lafuente, GRC, AST Data Systems, [blake.a.lafuente@nasa.gov](blake.a.lafuente@nasa.gov)
 * Shruti Janardhanan, GRC, Intern, [shruti.janardhanan@nasa.gov](shruti.janardhanan@nasa.gov)
 * Kelci Mensah, GRC, Intern, [kelci.mensah@nasa.gov](kelci.mensah@nasa.gov)
 * Samantha "Sam" Stesch, GRC, Intern, [samantha.g.stesch@nasa.gov](samantha.g.stesch@nasa.gov)
