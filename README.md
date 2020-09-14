@@ -18,7 +18,7 @@ $ cd NASA-Semantic-Search-Engine-for-Scientific-Literature
 5. Under the heading `BERT Sentence Transformer Semantic Search`, in the `queries` list, add your scientific query of choice
 6. Run that cell to recieve searched literature documents
 
-### Figma Mockup - [Clickable Prototype](https://www.figma.com/file/8McMiR3Eo8ccFVowPE8Hcy/Semantic-Search-Engine-for-Scientific-Literature-by-Vizzies?node-id=0%3A1)
+### Figma Mockup - [Clickable Prototype](https://www.figma.com/proto/8McMiR3Eo8ccFVowPE8Hcy/Semantic-Search-Engine-for-Scientific-Literature-by-Vizzies?node-id=1%3A3&scaling=min-zoom)
 1. Create a background frame `#F3F3F3` for web application
 2. Add in search bar for semantic query search
 3. Add title and hackathon team logo into the pseudo-navigation bar
@@ -43,7 +43,6 @@ A microservice written in Python with the [Flask micro framework](http://flask.p
     2. [`conda` environment](#conda)
 2. [Initialize Flask App](#init_flask)
 
-&nbsp;
 #### Set Up Environment <a name="set_up_env"></a>
 ##### `virtualenv` environment <a name="virtualenv"></a>
 
@@ -67,7 +66,6 @@ source env/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-&nbsp;
 ##### `conda` environment <a name="conda"></a>
 1. Clone the repo
 ```bash
@@ -90,7 +88,6 @@ conda activate ./env
 pip install -r requirements.txt
 ```
 #### Initialize Flask App <a name="init_flask"></a>
-
 3. Initialize the app database
 ```bash
 flask db init
@@ -118,6 +115,7 @@ http://127.0.0.1:8080/api/v1/results
 * Calvin Robinson, GRC, Data Architect, [calvin.r.robinson@nasa.gov](calvin.r.robinson@nasa.gov)
 * Evan "Taylor" Yates, MSFC, Software Engineer, [evan.t.yates@nasa.gov](evan.t.yates@nasa.gov)
 * Gulsum Oz, ARC, Information Tech Specialist, [oz.gulsum@nasa.gov](oz.gulsum@nasa.gov)
+* Blake Lafuente, GRC, AST Data Systems, [blake.a.lafuente@nasa.gov](blake.a.lafuente@nasa.gov)
 * Shruti Janardhanan, GRC, Intern, [shruti.janardhanan@nasa.gov](shruti.janardhanan@nasa.gov)
 * Kelci Mensah, GRC, Intern, [kelci.mensah@nasa.gov](kelci.mensah@nasa.gov)
 * Samantha "Sam" Stesch, GRC, Intern, [samantha.g.stesch@nasa.gov](samantha.g.stesch@nasa.gov)
